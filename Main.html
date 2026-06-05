@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>회원가입 페이지</title>
+  <link rel="stylesheet" href="2025211229 mid2.css">
+  <style>body {
+    background-color: #f2f2f2;
+    font-family: 'Noto Sans KR', sans-serif;
+    padding: 30px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 10px 5px 0 0;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  button[type="reset"] {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  button[type="button"] {
+    background-color: #008CBA;
+    color: white;
+  }</style>
+</head>
+<body>
+
+  <h1>회원가입</h1>
+  <form>
+    <label>이름: <input type="text" name="name"></label><br><br>
+    <label>주소: <input type="text" name="address"></label><br><br>
+    <label>이메일: <input type="email" name="email"></label><br><br>
+    <label>취미: <input type="text" name="hobby"></label><br><br>
+    <label>학력: <input type="text" name="education"></label><br><br>
+    <label>생년월일: <input type="date" name="birth"></label><br><br>
+
+    <button type="submit">가입하기</button>
+    <button type="reset">취소</button>
+    <button type="button" onclick="window.location.href='2025211229 mid (1).html'">메인으로</button>
+  </form>
+
+</body>
+</html>
