@@ -51,8 +51,28 @@
 - Language : Java
 - IDE : Eclipse
 - File I/O : FileReader, FileWriter, BufferedReader, BufferedWriter
+## 실행화면
+1.
+<img width="1182" height="752" alt="image" src="https://github.com/user-attachments/assets/f20a3caf-29f8-4e36-a790-90ac1b84cd5c" />
+
+2.
+<img width="1295" height="751" alt="image" src="https://github.com/user-attachments/assets/542f5f0e-5bc3-4eae-9e28-232a3260e789" />
 
 
-- Language : Java
-- IDE : Eclipse
-- File I/O : FileReader, FileWriter, BufferedReader, BufferedWriter
+# HTML 회원가입 페이지 프로젝트
+## 프로젝트 소개
+- HTML과 CSS를 활용하여 구현한 회원가입 페이지입니다. 사용자가 이름, 주소, 이메일, 취미, 학력, 생년월일 등의 정보를 입력할 수 있도록 구성하였으며, 직관적인 사용자 인터페이스를 통해 편리하게 회원 정보를 입력할 수 있도록 제작하였습니다.
+## 주요 기능
+- 회원 정보 입력
+  - 이름, 주소, 이메일 입력 기능
+  - 취미, 학력 정보 입력 기능
+  - 생년월일 선택 기능
+- 가입하기 버튼
+- 입력 내용 초기화 기능
+- 메인 페이지 이동 기능
+## 개발 환경
+- Language : HTML, CSS
+- IDE : Visual Studio Code
+- Style : CSS
+## 실행화면
+<img width="648" height="900" alt="image" src="https://github.com/user-attachments/assets/0aa927ad-6fea-4e95-b4dc-7b4747d08a50" />
